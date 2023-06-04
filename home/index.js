@@ -3,11 +3,14 @@ if (typeof window !== 'undefined') {
     
     let localStorageAllowed = false
 
-    if (typeof(Storage) !== "undefined") { localStorageAllowed = true }
+    if (typeof(Storage) !== "undefined") {
+        localStorageAllowed = true
+        console.log('Localstorage Check Complete')
+    }
 
     const lightModeButton = document.getElementById("lightModeButton")
 
-    lightModeButton.onclick = function() {
+    lightModeButton.onClick = function() {
         if (lightModeButton.className == "btn btn-dark") {
             lightModeButton.innerHtml = "🌑"
             lightModeButton.className = "btn btn-light"
