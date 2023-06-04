@@ -1,3 +1,3 @@
 document.getElementById('lightModeButton').onclick = function() {
-    alert("button was clicked");
+    document.getElementByID("lightModeButton").innerHtml = "🌑"
  }​;​
