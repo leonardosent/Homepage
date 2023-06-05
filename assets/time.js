@@ -6,10 +6,9 @@ if (typeof window !== 'undefined') {
     let timeDisplay = document.getElementById("timeDisplay")
     console.log(timeDisplay)
     // timeDisplay.classList.remove("placeholder-glow")
-    console.log(date)
-    console.log(date.getHours + ":" + date.getMinutes)
+    console.log(date.getHours() + ":" + date.getMinutes())
     setTimeout(function() {
-        document.getElementById("timeDisplay").innerHTML = date.getHours + ":" + date.getMinutes
+        document.getElementById("timeDisplay").innerHTML = date.getHours() + ":" + date.getMinutes()
         console.log("Updated")
     }, 1000);
 
