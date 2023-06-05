@@ -8,6 +8,13 @@ if (typeof window !== 'undefined') {
         console.log('Localstorage Check Complete')
     }
 
+    const logoImageSpinner = document.getElementById("image-spinner")
+    const logoImage = document.getElementById("logo-image")
+    
+    logoImage.onload = function() {
+        logoImageSpinner.remove()
+    }
+
     // const lightModeButton = document.getElementById("lightModeButton")
 
     // lightModeButton.onClick = function() {
