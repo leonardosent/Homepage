@@ -4,9 +4,6 @@ if (typeof window !== 'undefined') {
     const date = new Date()
     
     let timeDisplay = document.getElementById("timeDisplay")
-    console.log(timeDisplay)
-    // timeDisplay.classList.remove("placeholder-glow")
-    console.log(date.getHours() + ":" + date.getMinutes())
     setTimeout(function() {
         document.getElementById("timeDisplay").innerHTML = date.getHours() + ":" + date.getMinutes()
         console.log("Updated")
