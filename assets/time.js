@@ -4,7 +4,8 @@ if (typeof window !== 'undefined') {
     const date = new Date()
     
     let timeDisplay = document.getElementById("timeDisplay")
-    timeDisplay.classList.remove("placeholder-glow")
+    console.log(timeDisplay)
+    // timeDisplay.classList.remove("placeholder-glow")
 
     setTimeout(function() {
         timeDisplay.innerHTML = date.getHours + ":" + date.getMinutes
