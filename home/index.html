@@ -10,7 +10,7 @@
         <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script> -->
         <link href="../assets/styles.css" rel="stylesheet">
-        <script src="../assets/time.js"></script>
+        <!-- <script src="../assets/time.js"></script> -->
         <!-- <script src="../assets/index.js"></script> -->
     </head>
     <body>
@@ -28,27 +28,19 @@
                         <a class="nav-link active" aria-current="page" href="../home">Home</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                        <a class="nav-link" onclick="window.location.href='#about'">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+                        <a class="nav-link" onclick="window.location.href='#projects'">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#links">Links</a>
+                        <a class="nav-link" onclick="window.location.href='#links'">Links</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="../projects">Projects</a>
-                    </li> -->
                     <!-- <li class="nav-item">
                         <p id="timeDisplay" class="placeholder-glow">
                         <span class="placeholder col-12"></span></p>
                     </li> -->
                     <!-- <li class="nav-item dropdown"> -->
-                        <!-- Light/Dark mode TODO -->
-                    <!-- <li class="nav-item">
-                        <button type="button" id="lightModeButton" class="btn btn-dark">☀️</button>
-                    </li> -->
-
                     <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Dropdown
                     </a>
@@ -74,6 +66,7 @@
         <div class="main-body">
             <!-- <h2>Home</h2><hr> -->
             <div id="about">
+                <br><br><br>
                 <div class="card mx-auto" style="max-width: 840px;">
                     <div class="card-header">
                       About
@@ -87,6 +80,7 @@
             </div>
             <br>
             <div id="projects">
+                <br><br><br>
                 <div class="card mb-3 mx-auto" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
@@ -127,11 +121,12 @@
                     </div>
                 </div>
             </div>
-            <br><hr>
             <div id="links">
+                <br><br><br><hr>
                 <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@leosmakerspace179"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/180px-YouTube_full-color_icon_%282017%29.svg.png" alt="Youtube" width="40" height="40"></a>
                 <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/leonardo-sent/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/900px-LinkedIn_logo_initials.png?20140125013055" alt="LinkedIn" width="40" height="40"></a>
                 <a class="btn" target="_blank" rel="noopener noreferrer" href="https://github.com/leonardosent"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/900px-Octicons-mark-github.svg.png?20180806170715" alt="Github" width="40" height="40"></a>
+                <br><br>
             </div>
         </div>
     </body>
